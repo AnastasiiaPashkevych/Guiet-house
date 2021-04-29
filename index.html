@@ -29,13 +29,19 @@
           <a href="#!" class="header__link">Галерея</a>
         </li>
         <li class="list__item header__item">
-          <a href="#!" class="header__link">Куда пойти</a>
-        </li>
-        <li class="list__item header__item">
           <a href="#!" class="header__link">Контакты</a>
         </li>
       </ul>
+      <div class="header__nav-close">
+        <span class="header__nav-close-line"></span>
+        <span class="header__nav-close-line"></span>
+      </div>
     </nav>
+    <div class="header__burger burger">
+      <span class="burger__line burger__line_first"></span>
+      <span class="burger__line burger__line_second"></span>
+      <span class="burger__line burger__line_third"></span>
+    </div>
   </div>
 </header>
 <main class="main">
@@ -72,7 +78,12 @@
       <h2 class="header_h2 rooms__title">Номера</h2>
       <div class="rooms-inner">
         <div class="rooms__item">
-          <img src="images/house.jpg" alt="" class="rooms__img">
+          <div class="rooms__item-img">
+            <img src="images/house.jpg" alt="" class="rooms__img">
+            <div class="rooms__text">
+              Комфортный коттедж вмещает от 1 до 18 человек
+            </div>
+          </div>
           <h3 class="rooms__item-title">Домик</h3>
           <div class="rooms__item-price">500 грн / сутки</div>
           <div class="rooms__buttons">
@@ -81,13 +92,45 @@
           </div>
         </div>
         <div class="rooms__item">
-          <img src="images/room.jpg" alt="" class="rooms__img">
-          <h3 class="rooms__item-title">Номер стандарт</h3>
+          <div class="rooms__item-img">
+            <img src="images/room.jpg" alt="" class="rooms__img">
+            <div class="rooms__text">
+              Номера для проживания эконом класса
+            </div>
+          </div>
+          <h3 class="rooms__item-title">Номера</h3>
           <div class="rooms__item-price">150 грн / сутки (с человека)</div>
           <div class="rooms__buttons">
             <button class="rooms__button button">Забронировать</button>
             <button class="rooms__button button">Подробнее</button>
           </div>
+        </div>
+      </div>
+
+      <div class="services">
+        <div class="services__item">
+          <img src="images/key.png" alt="" class="services__img">
+          <p class="services__text text text_white">
+            Доступно и комфортно
+          </p>
+        </div>
+        <div class="services__item">
+          <img src="images/like.png" alt="" class="services__img">
+          <p class="services__text text text_white">
+            Проживание в номерах от 150 грн/сутки
+          </p>
+        </div>
+        <div class="services__item">
+          <img src="images/customer.png" alt="" class="services__img">
+          <p class="services__text text text_white">
+            Вежливый персонал и обслуживание
+          </p>
+        </div>
+        <div class="services__item">
+          <img src="images/sunset.png" alt="" class="services__img">
+          <p class="services__text text text_white">
+            300 метров к морю
+          </p>
         </div>
       </div>
     </div>
